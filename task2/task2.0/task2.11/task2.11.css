@@ -1,0 +1,32 @@
+.div1 {
+    border:5px solid black;
+    background-color: blanchedalmond;
+    padding: 8px;
+    width: 22%;
+}
+
+.contact {
+    background-color: red;
+    padding:10px;
+    text-align: center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 250px;
+    height: 30px;
+        
+}
+
+.input {
+    display:block;
+    box-sizing: border-box;
+    width: 270px;
+    height: 40px;
+}
+
+.subm {
+    display: block;
+    box-sizing: border-box;
+    width: 270px;
+    height: 40px;
+    background-color: yellow;
+}

@@ -1,0 +1,57 @@
+.p1 {
+    background-color: lightblue;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.p2 {
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.p3 {
+    background-color: lightblue;
+    padding: 10px;
+    color: white;
+    width: 50%;
+}
+
+.p4 {
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    
+}
+
+.p5 {
+    background-color: pink;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.p6 {
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.p7 {
+    background-color: orange;
+    padding: 10px;
+    width: 50%;
+}
+
+.p8 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 50%;
+}
+
+.p9 {
+    background-color: orange;
+    padding: 10px;
+    width: 50%;
+}

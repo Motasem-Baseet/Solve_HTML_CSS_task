@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+.p1 {
+    background-color: bisque;
+    color: red;
+}
+
+.p2 {
+    background-image: url("../task2.4/bg1.webp");
+    color: aliceblue;
+}
+
+.p3 {
+    background-image: url("../task2.4/bg1.webp");
+    color: aliceblue;
+}

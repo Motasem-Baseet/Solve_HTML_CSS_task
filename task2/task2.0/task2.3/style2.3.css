@@ -1,0 +1,28 @@
+div {
+background-color: blue;
+width: 80%;
+}
+
+.p1 {
+    padding: 2%;
+    width: 80%;
+    height: 40px; 
+    font-size: 160%;
+    color: yellow;
+}
+
+.p-blue {
+    color: blue;
+}
+
+.img1 {
+    width: 100px;
+}
+
+.p2 {
+    color: green;
+}
+
+.vid {
+    width: 400px;
+}

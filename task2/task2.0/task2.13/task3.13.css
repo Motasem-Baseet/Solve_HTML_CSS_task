@@ -1,0 +1,10 @@
+body {
+    background-image: url(bg1.jpg), url(bg2.jpg);
+    background-repeat:repeat-y, repeat-x;
+    background-size: 200px;
+    
+}
+
+.bg1 {
+    color:indianred;
+}

@@ -1,0 +1,54 @@
+.h-1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:olivedrab
+}
+
+.p01 {
+    text-decoration: underline;
+    color: lightblue;
+    font-size: large;
+}
+
+.p1 {
+    background-color: lightblue;
+    color: antiquewhite;
+    width: 50%;
+}
+
+.div-1 {
+    background-color: azure;
+    width: 50%;
+}
+
+.p2 {
+    color: red;
+}
+
+.p3 {
+    color: red;
+}
+
+.p4 {
+    color: blue;
+}
+
+.h2 {
+    background-color: pink;
+    text-align: center;
+}
+
+.p5 {
+    color: blue;
+}
+
+.p5 {
+    color: red;
+}
+
+.p7 {
+    color: blue;
+}
+
+.p8 {
+    color: red;
+}
