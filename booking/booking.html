@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .body {
+            background-color: #003b95;
+             padding-left: 200px ;
+             padding-right: 200px ;
+             padding-top: 20px ;
+            overflow-x:hidden;
+        }
+
+        .main {
+            width: auto;
+            height:300px;
+        }
+
+        .header_contener {
+            display: flex;
+            flex-direction: row; 
+            color: white;
+            justify-content:space-between;
+            
+            
+        }
+
+       .nav-ul {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        
+        
+       }
+        
+        .nav-ul li img{
+            display: inline;
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        .nav-ul li button{
+            display: inline;
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: rgb(0, 157, 255);
+        }
+
+        .nav-ul li{
+            display: inline;
+            margin: 15px;
+           
+        }
+        .header_contener , .logo, a{
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 500px;
+            font-size: 14px;
+        }
+
+        .header-p {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-weight: 900;
+            line-height: 2rem;
+            font-size: larger;
+            padding-top: 50px;
+           
+        }
+
+        .search {
+            background-color: orange;
+            display:flex;
+            flex-direction: row;
+            justify-content: start;
+            width: 720px;
+            margin-top: 35px;
+            border-radius: 5px;
+            
+            
+        }
+
+        .search input{
+            background-color: white;
+            border-color: white;
+           border-radius: 5px;
+            padding: 10px;
+            margin: 2px;
+            
+        }
+
+        .search input search {
+            background-color: white;
+            border-color: white;
+           border-radius: 5px;
+            margin: 1px;
+        }
+
+        .in1 {
+            display: flex;
+        }
+
+        main {
+            background-color: white;
+        }
+
+        .choices {
+            display: grid;
+            grid-template-columns: 3;
+        }
+     </style>
+</head>
+
+<body>
+    <div class="body">
+    <header class="main">
+        <div class="header_contener">
+            <div class="logo">
+                <a href="">
+                    <h2>Booking.com</h2>
+                </a>
+            </div>
+            <div class="container-ul">
+                <ul class="nav-ul">
+                    <li><b>JOD</b></li>
+                    <li><img class="uklogo" src="https://t-cf.bstatic.com/design-assets/assets/v3.125.0/images-flags/Gb@3x.png"
+                        alt=""></li>
+                    <li><i class='far fa-question-circle' style='font-size:36px'></i></li>
+                    <li>List your properity</li>
+                    <li><button class="botn">Register</button></li>
+                    <li><button class="botn">Sign in</button></li>
+                    <li></li>
+                </ul>
+            </div>            
+
+            
+           
+
+        </div>
+        <div class="nav">
+            <a href="">
+                <p>Stays</p>
+            </a>
+            <a href="">
+                <p>Flight</p>
+            </a>
+            <a href="">
+                <p>Car rental</p>
+            </a>
+            <a href="">
+                <p>Attraction</p>
+            </a>
+            <a href="">
+                <p>Airport taxis</p>
+            </a>
+        </div>
+        <div class="header-p">
+        <h1>Find your next stay</h1>
+        <p>Search low price in hotels, homes and much more...</p>
+    </div>
+    <div class="search">
+        <input class="in1" size="27" type="text" value="Where are you going?">
+        <input type="text" name="" value="Checj-in - Check-out date">
+        <input type="text" size="25" name="" value=" adult . 0 children . 1 room">
+        <input style="background-color:#1d87da; border-color: #1d87da; "type="button" name="" value="Search">
+      </div>
+      </header>
+      <main>
+        <div class="choices">
+            <div class="book">
+            <p>Book now, pay at the properity</p>
+            <p>FREE cancelattion on most rooms</p>
+        </div>
+        <div class="properities"></div>
+            <p>2+ million properties worldwide</p>
+            <p>Hotels, guest houses, apartments, and more…</p>
+        </div>
+        <div class="customer-c"></div>
+            <p>2+ million properties worldwide</p>
+            <p>Hotels, guest houses, apartments, and more…</p>
+        </div>
+        
+     </main>
+</div>
+</body>
+
+</html>
